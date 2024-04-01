@@ -41,19 +41,19 @@ A Trelloboard to help manage and visualize your project workload & progress with
 1. Clone this repo
 
 ```bash
-git clone https://github.com/nimone/trelloboard && cd trelloboard
+git clone https://github.com/dbgautam7/clickup-lite.git && cd clickup-lite
 ```
 
 2. Install project dependecies
 
 ```bash
-npm install
+pnnpm install
 ```
 
 3. Build the project and start a local server
 
 ```bash
-npm run build && npm run serve
+pnpm run build && pnpm run serve
 ```
 
-> Or, run a development server using `npm run dev`
+> Or, run a development server using `pnpm run dev`
