@@ -12,6 +12,7 @@ import clsx from "clsx"
 import useTrelloStore from "./store"
 import { AnimatePresence } from "framer-motion"
 import { getRandomImage } from "./utils/image"
+import Loader from "./components/Loader"
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
     )
   }
   return (
+   
     <div
       className={clsx(
         "App flex flex-col min-h-screen bg-cover bg-center",
@@ -89,6 +91,7 @@ function App() {
         </Board>
       </DragDropContext>
       <Footer />
+      <Loader />
     </div>
   )
 }
